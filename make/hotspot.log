@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hotspot_log version='160 1' process='26100' time_ms='1395066665158'>
+<vm_version>
+<name>
+OpenJDK 64-Bit Server VM
+</name>
+<release>
+24.0-b56-internal-jvmg
+</release>
+<info>
+OpenJDK 64-Bit Server VM (24.0-b56-internal-jvmg) for linux-amd64 JRE (1.7.0), built on Mar 17 2014 18:04:08 by &quot;zhh&quot; with gcc 4.8.1
+</info>
+</vm_version>
+<vm_arguments>
+<command>
+Test
+</command>
+<launcher>
+gamma
+</launcher>
+<properties>
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.version=24.0-b56-internal-jvmg
+java.vm.name=OpenJDK 64-Bit Server VM
+java.vm.info=mixed mode, sharing
+java.ext.dirs=/home/zhh/jdk1.7.0_45/jre/lib/ext:/usr/java/packages/lib/ext
+java.endorsed.dirs=/home/zhh/jdk1.7.0_45/jre/lib/endorsed
+sun.boot.library.path=/home/zhh/jdk1.7.0_45/jre/lib/amd64
+java.library.path=/home/zhh/hotspot/build/linux/linux_amd64_compiler2/jvmg:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.home=/home/zhh/jdk1.7.0_45/jre
+java.class.path=/home/zhh/code/mycode/test
+sun.boot.class.path=/home/zhh/jdk1.7.0_45/jre/lib/resources.jar:/home/zhh/jdk1.7.0_45/jre/lib/rt.jar:/home/zhh/jdk1.7.0_45/jre/lib/sunrsasign.jar:/home/zhh/jdk1.7.0_45/jre/lib/jsse.jar:/home/zhh/jdk1.7.0_45/jre/lib/jce.jar:/home/zhh/jdk1.7.0_45/jre/lib/charsets.jar:/home/zhh/jdk1.7.0_45/jre/lib/jfr.jar:/home/zhh/jdk1.7.0_45/jre/classes
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.7
+java.vm.vendor=Oracle Corporation
+sun.java.command=Test
+sun.java.launcher=gamma
+</properties>
+</vm_arguments>
+<tty>
+<writer thread='140737354016512'/>
+C1 Runtime statistics:
+ _resolve_invoke_virtual_cnt:     0
+ _resolve_invoke_opt_virtual_cnt: 0
+ _resolve_invoke_static_cnt:      0
+ _handle_wrong_method_cnt:        0
+ _ic_miss_cnt:                    0
+ _generic_arraycopy_cnt:          0
+ _generic_arraycopystub_cnt:      0
+ _byte_arraycopy_cnt:             0
+ _short_arraycopy_cnt:            0
+ _int_arraycopy_cnt:              0
+ _long_arraycopy_cnt:             0
+ _primitive_arraycopy_cnt:        0
+ _oop_arraycopy_cnt (C):          0
+ _oop_arraycopy_cnt (stub):       0
+ _arraycopy_slowcase_cnt:         0
+ _arraycopy_checkcast_cnt:        0
+ _arraycopy_checkcast_attempt_cnt:0
+ _new_type_array_slowcase_cnt:    0
+ _new_object_array_slowcase_cnt:  0
+ _new_instance_slowcase_cnt:      0
+ _new_multi_array_slowcase_cnt:   0
+ _monitorenter_slowcase_cnt:      0
+ _monitorexit_slowcase_cnt:       0
+ _patch_code_slowcase_cnt:        0
+ _throw_range_check_exception_count:            0:
+ _throw_index_exception_count:                  0:
+ _throw_div0_exception_count:                   0:
+ _throw_null_pointer_exception_count:           0:
+ _throw_class_cast_exception_count:             0:
+ _throw_incompatible_class_change_error_count:  0:
+ _throw_array_store_exception_count:            0:
+ _throw_count:                                  0:
+
+<statistics type='SharedRuntime'>
+    0 inline cache miss in compiled
+    0 wrong method
+    0 unresolved static call site
+    0 unresolved virtual call site
+    0 unresolved opt virtual call site
+    5 slow partial subtype
+   12 byte array copies
+   12 short array copies
+   12 int array copies
+   12 long array copies
+AdapterHandlerTable: empty 188 longest 3 total 131 average 1.247619
+AdapterHandlerTable: lookups 4628 buckets 4995 equals 4497 hits 4497 compact 4497
+</statistics>
+<statistics type='nmethod'>
+Debug Data Chunks: 0, shared 0+0, non-SP&apos;s elided 0
+PcDesc Statistics:  0 queries, -nan comparisons per query
+  caches=0 queries=0/0, hits=0+0, tests=0+0, adds=0
+</statistics>
+<statistics type='opto'>
+--- Compiler Statistics ---
+Methods seen: 0  Methods parsed: 0  Nodes created: 0
+Blocks parsed: 0  Blocks seen: 0
+CCP: 0  constants found: 0
+Total frameslots = 0, Max frameslots = 0
+Nops added 0 bytes to total of 0 bytes
+Peephole: peephole rules applied: 0
+PhaseIdealLoop=0, sum _unique=0
+</statistics>
+<writer thread='140737051358976'/>
+<destroy_vm stamp='0.803'/>
+<tty_done stamp='0.834'/>
+</tty>
+<hotspot_log_done stamp='0.834'/>
+</hotspot_log>
